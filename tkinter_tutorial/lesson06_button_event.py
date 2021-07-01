@@ -43,33 +43,33 @@ class Calculator(tk.Tk):
         self.button9.grid(row=2, column=2)
         self.button9.bind('<Button-1>', self.__num_button_clicked)
 
-        self.button8 = tk.Button(master=self.root_frame, text='8', width='2')
-        self.button8.grid(row=2, column=1)
-        self.button8.bind('<Button-1>', self.__num_button_clicked)
+        # self.button8 = tk.Button(master=self.root_frame, text='8', width='2')
+        # self.button8.grid(row=2, column=1)
+        # self.button8.bind('<Button-1>', self.__num_button_clicked)
 
-        self.button7 = tk.Button(master=self.root_frame, text='7', width='2')
-        self.button7.grid(row=2, column=0)
-        self.button7.bind('<Button-1>', self.__num_button_clicked)
+        # self.button7 = tk.Button(master=self.root_frame, text='7', width='2')
+        # self.button7.grid(row=2, column=0)
+        # self.button7.bind('<Button-1>', self.__num_button_clicked)
 
-        self.button6 = tk.Button(master=self.root_frame, text='6', width='2')
-        self.button6.grid(row=3, column=2)
-        self.button6.bind('<Button-1>', self.__num_button_clicked)
+        # self.button6 = tk.Button(master=self.root_frame, text='6', width='2')
+        # self.button6.grid(row=3, column=2)
+        # self.button6.bind('<Button-1>', self.__num_button_clicked)
 
         self.button5 = tk.Button(master=self.root_frame, text='5', width='2')
         self.button5.grid(row=3, column=1)
         self.button5.bind('<Button-1>', self.__num_button_clicked)
 
-        self.button4 = tk.Button(master=self.root_frame, text='4', width='2')
-        self.button4.grid(row=3, column=0)
-        self.button4.bind('<Button-1>', self.__num_button_clicked)
+        # self.button4 = tk.Button(master=self.root_frame, text='4', width='2')
+        # self.button4.grid(row=3, column=0)
+        # self.button4.bind('<Button-1>', self.__num_button_clicked)
 
-        self.button3 = tk.Button(master=self.root_frame, text='3', width='2')
-        self.button3.grid(row=4, column=2)
-        self.button3.bind('<Button-1>', self.__num_button_clicked)
+        # self.button3 = tk.Button(master=self.root_frame, text='3', width='2')
+        # self.button3.grid(row=4, column=2)
+        # self.button3.bind('<Button-1>', self.__num_button_clicked)
 
-        self.button2 = tk.Button(master=self.root_frame, text='2', width='2')
-        self.button2.grid(row=4, column=1)
-        self.button2.bind('<Button-1>', self.__num_button_clicked)
+        # self.button2 = tk.Button(master=self.root_frame, text='2', width='2')
+        # self.button2.grid(row=4, column=1)
+        # self.button2.bind('<Button-1>', self.__num_button_clicked)
 
         self.button1 = tk.Button(master=self.root_frame, text='1', width='2')
         self.button1.grid(row=4, column=0)
@@ -82,8 +82,8 @@ class Calculator(tk.Tk):
         self.plus_button = tk.Button(master=self.root_frame, text='+', width='2')
         self.plus_button.grid(row=4, column=3)
 
-        self.equal_button = tk.Button(master=self.root_frame, text='=', width='2')
-        self.equal_button.grid(row=5, column=3)
+        # self.equal_button = tk.Button(master=self.root_frame, text='=', width='2')
+        # self.equal_button.grid(row=5, column=3)
 
         self.clear_button = tk.Button(master=self.root_frame, text='C', width='2')
         self.clear_button.grid(row=1, column=0)
